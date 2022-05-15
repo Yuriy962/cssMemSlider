@@ -8,6 +8,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="slider">
+        <div class="slider__wrapper">
+            <div class="slider__track">
+                <input type="radio" name="right" id="r1">
+                <input type="radio" name="right" id="r2">
+                <input type="radio" name="right" id="r3">
+                <input type="radio" name="right" id="r4">
+
+                <div class="slider__item" id="s1">
+                    <img src="img/first.jpg" alt="">
+                    <h2 class="slider__text">Зачем делать слайдер на JS, если его можно сделать на чистом css?</h2>
+                </div>
+                <div class="slider__item">
+                    <img src="img/second.jpg" alt="">
+                    <h2 class="slider__text">Когда написал свой первый плеер, а он оказался удобнее spotify!</h2>
+                </div>
+                <div class="slider__item">
+                    <img src="img/third.jpg" alt="">
+                    <h2 class="slider__text">Ну выучил ты CSS, а js то кто практиковать будет? Задачки решать?</h2>
+                </div>
+                <div class="slider__item">
+                    <img src="img/fourth.webp" alt="">
+                    <h2 class="slider__text">Ага, ну давай, расскажи, как ты сделал рабочий слайдер без JS</h2>
+                </div>
+            </div>
+            <footer class="slider__bottom">
+                <ul class="slider-pag">
+                    <li class="slider-pag__item" id="1">
+                        <label for="r1" class="slider-pag__link"></label>
+                    </li>
+                    <li class="slider-pag__item">
+                        <label for="r2" class="slider-pag__link"></label>
+                    </li>
+                    <li class="slider-pag__item">
+                        <label for="r3" class="slider-pag__link"></label>
+                    </li>
+                    <li class="slider-pag__item">
+                        <label for="r4" class="slider-pag__link"></label>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
